@@ -82,15 +82,15 @@ impl BitVector {
 
     /// Returns the bit-vector as a Vec<u8>.
     pub fn to_vec(&self) -> Vec<u8> {
-        return self.contents.to_vec();
+        self.contents.to_vec()
     }
 
     /// Creates a bit-vector from a Vec<u8>.
     pub fn from_vec(vec: Vec<u8>) -> BitVector {
-        return BitVector {
+        BitVector {
             contents: vec.clone(),
             len: vec.len() * 8,
-        };
+        }
     }
 }
 

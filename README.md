@@ -1,3 +1,3 @@
 # Bit-Vector
 
-A simple bit-vector in Rust.
+A bit-vector in Rust.
